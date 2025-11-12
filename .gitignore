@@ -1,0 +1,48 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Build & dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test/tooling caches
+.pytest_cache/
+.mypy_cache/
+.tox/
+.nox/
+.ruff_cache/
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs & temp
+*.log
+.cache/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# App outputs (optional)
+export/
+output/
