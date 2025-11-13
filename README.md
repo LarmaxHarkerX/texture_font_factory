@@ -23,6 +23,13 @@ A desktop tool to generate texture fonts for the Etterna Rebirth theme. Inspired
   ```powershell
   python main.py
   ```
+## Run Again
+- Activate the existing virtual environment:
+  - PowerShell: `.\.venv\Scripts\Activate.ps1`
+  - CMD: `.\.venv\Scripts\activate.bat`
+  - Git Bash: `source .venv/Scripts/activate`
+- Launch the GUI: `python main.py`
+- Exit the environment: `deactivate`
 
 ## Features
 - Generate PNG texture pages and config files for Etterna Rebirth.

@@ -24,6 +24,15 @@
   python main.py
   ```
 
+## 再次运行
+- 进入包目录：`Texture-Font-Factory\texture_font_factory`。
+- 激活已有的虚拟环境：
+  - PowerShell：`.\.venv\Scripts\Activate.ps1`
+  - CMD：`.\.venv\Scripts\activate.bat`
+  - Git Bash：`source .venv/Scripts/activate`
+- 启动 GUI：`python main.py`
+- 结束后退出虚拟环境：`deactivate`
+
 ## 功能
 - 生成用于 Etterna Rebirth 的 PNG 字体纹理页与配置文件。
 - 可选择系统字体或字体文件（.ttf/.otf），支持名称搜索。
